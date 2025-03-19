@@ -38,8 +38,11 @@ jobs:
           run_install: |
             - args: [--frozen-lockfile]
 
+      - name: build
+        run: pnpm run build
+
       - name: release
         run: npx release-it --verbose
         env:
-          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
