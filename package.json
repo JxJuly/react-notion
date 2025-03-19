@@ -1,0 +1,26 @@
+{
+  "name": "@july_cm/react-notion",
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc"
+  },
+  "files": ["lib"],
+  "main": "./lib/index.js",
+  "dependencies": {
+    "@notionhq/client": "^2.2.17"
+  },
+  "devDependencies": {
+    "@july_cm/eslint-config": "^2.0.0",
+    "@release-it/conventional-changelog": "^10.0.0",
+    "@types/react": "^19.0.10",
+    "eslint": "^9.22.0",
+    "react": "^19.0.0",
+    "release-it": "^18.1.2",
+    "release-it-pnpm": "^4.6.4",
+    "typescript": "^5.8.2"
+  },
+  "peerDependencies": {
+    "react": "^19.0.0"
+  }
+}
