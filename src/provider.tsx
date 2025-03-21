@@ -1,10 +1,12 @@
 'use client';
 import React, { createContext, useContext, useMemo } from 'react';
 
+import { CustomComponents } from './types';
+
 const context = createContext({} as any);
 
 interface NotionProviderProps {
-  components: Record<string, any>;
+  components: CustomComponents;
 }
 
 export const NotionRenderProvider: React.FC<React.PropsWithChildren<NotionProviderProps>> = ({

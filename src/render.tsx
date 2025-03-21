@@ -15,6 +15,9 @@ const Render: React.FC<RenderProps> = ({ data }) => {
       {data.map((block) => {
         const children = block.has_children ? <Render data={block.children} /> : undefined;
         const Comp = components[block.type] ?? React.Fragment;
+        if (!components[block.type]) {
+          console.warn(`[@july_cm/react-notion]: Can not found type '${block.type}' component`);
+        }
 
         return <Comp key={block.id} block={block} children={children} />;
       })}
