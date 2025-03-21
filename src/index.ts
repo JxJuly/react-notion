@@ -1,5 +1,6 @@
 export { Notion } from './rsc';
 export { NotionRenderProvider } from './provider';
+export { Render } from './render';
 export { serialize } from './serialize';
 
 /**
