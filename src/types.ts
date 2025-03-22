@@ -19,6 +19,7 @@ import type {
   ColumnBlockObjectResponse,
   QuoteBlockObjectResponse,
   CodeBlockObjectResponse,
+  ImageBlockObjectResponse,
   RichTextItemResponse,
 } from '@notionhq/client/build/src/api-endpoints';
 
@@ -70,5 +71,6 @@ export type {
   ColumnBlockObjectResponse,
   QuoteBlockObjectResponse,
   CodeBlockObjectResponse,
+  ImageBlockObjectResponse,
   RichTextItemResponse,
 };

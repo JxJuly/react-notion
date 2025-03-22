@@ -24,5 +24,6 @@ export type {
   ColumnBlockObjectResponse,
   QuoteBlockObjectResponse,
   CodeBlockObjectResponse,
+  ImageBlockObjectResponse,
   RichTextItemResponse,
 } from './types';
