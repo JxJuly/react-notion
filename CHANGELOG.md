@@ -1,5 +1,11 @@
 # Changelog | 变更日志
 
+## [0.0.3](https://github.com/JxJuly/react-notion/compare/0.0.2...0.0.3) (2025-03-22)
+
+### 🐛 Bug Fixes | Bug 修复
+
+* 增加类型 ImageBlockObjectResponse 导出 ([fb9e212](https://github.com/JxJuly/react-notion/commit/fb9e212d0bc97ec4104713228cedf204a2d03fb6))
+
 ## [0.1.0](https://github.com/JxJuly/react-notion/compare/0.0.1...0.1.0) (2025-03-21)
 
 ### 🌟 Features | 新功能
