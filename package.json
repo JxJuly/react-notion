@@ -3,17 +3,21 @@
   "version": "0.0.3",
   "author": "July",
   "type": "module",
+  "types": "./lib/index.d.ts",
+  "main": "./lib/index.js",
+  "module": "./lib/index.js",
   "scripts": {
-    "build": "rm -rf ./dist && tsc",
+    "build": "rm -rf ./lib && tsc",
     "release": "release-it -ci"
   },
-  "files": ["lib"],
-  "main": "./lib/index.js",
+  "files": [
+    "lib"
+  ],
   "dependencies": {
     "@notionhq/client": "^2.2.17"
   },
   "devDependencies": {
-    "@july_cm/eslint-config": "^2.0.0",
+    "@july_cm/eslint-config": "^2.3.0",
     "@release-it/conventional-changelog": "^10.0.0",
     "@types/react": "^19.0.10",
     "eslint": "^9.22.0",
