@@ -1,0 +1,7 @@
+.column-list {
+  display: flex;
+  grid-column: 12px;
+}
+.column {
+  min-width: 0;
+}

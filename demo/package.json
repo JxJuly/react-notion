@@ -1,0 +1,20 @@
+{
+  "name": "@july_cm/react-notion-demo",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "dependencies": {
+    "@july_cm/react-notion": "workspace:*",
+    "next": "^15.3.4",
+    "clsx": "^2.1.1",
+    "react": "^19.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "24.0.3",
+    "@types/react": "^19.1.8",
+    "typescript": "^5.8.3"
+  }
+}

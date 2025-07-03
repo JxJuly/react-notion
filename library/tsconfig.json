@@ -2,12 +2,12 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "ESNext",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "esModuleInterop": true,
     "moduleResolution": "bundler",
     "declaration": true,
-    "declarationDir": "./lib",
-    "outDir": "./lib",
+    "declarationDir": "./dist",
+    "outDir": "./dist",
     "rootDir": "./src"
   },
   "include": ["./src"]

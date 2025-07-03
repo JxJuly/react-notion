@@ -1,0 +1,17 @@
+.table {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-bottom: none;
+}
+.table-row {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.table-cell {
+  flex: 1;
+  border-right: 1px solid #ccc;
+}
+.table-row > .table-cell:last-child {
+  border-right: none;
+}

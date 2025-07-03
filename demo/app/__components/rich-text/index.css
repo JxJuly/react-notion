@@ -1,0 +1,11 @@
+.base-text {
+  &.bold {
+    font-weight: 500;
+  }
+  &.underline {
+    text-decoration-line: underline;
+  }
+  &.italic {
+    font-style: italic;
+  }
+}
