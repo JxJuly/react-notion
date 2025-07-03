@@ -1,6 +1,6 @@
 {
   "name": "@july_cm/react-notion",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "author": "July",
   "type": "module",
   "module": "./dist/index.js",
