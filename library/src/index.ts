@@ -7,7 +7,7 @@ export { NotionRenderer, type NotionRendererProps } from './rsc';
  * notion sdk 透传
  */
 export { Client } from '@notionhq/client';
-export { isTextRichTextItemResponse } from '@notionhq/client/build/src/helpers';
+export { isFullPage, isFullBlock, isTextRichTextItemResponse } from '@notionhq/client/build/src/helpers';
 
 /**
  * 类型
