@@ -1,14 +1,13 @@
-name: Release
+name: Release PR
 
 permissions:
-  contents: write
-  id-token: write
+  pull-requests: write
 
 on:
   workflow_dispatch:
 
 jobs:
-  publish:
+  pr:
     runs-on: ubuntu-latest
     steps:
       - name: Setup
@@ -16,14 +15,10 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - name: Build
-        run: pnpm run build
-
-      - name: changesets
+      - name: Create PR
         id: changesets
         uses: changesets/action@v1
         with:
-          publish: pnpm changeset publish
           commitMode: 'github-api'
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
