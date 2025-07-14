@@ -4,7 +4,8 @@
   "scripts": {
     "dev": "cd ./demo && pnpm run dev",
     "build:demo": "cd ./demo && pnpm run build",
-    "build": "cd ./library && pnpm run build && cp ./README.md ./library/README.md"
+    "build": "cd ./library && pnpm run build",
+    "deploy": "cp ./README.md ./library/README.md && pnpm run build"
   },
   "workspaces": ["library", "demo"],
   "devDependencies": {
