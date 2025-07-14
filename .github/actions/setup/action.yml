@@ -4,11 +4,6 @@ description: Setup git, node, pnpm and install deps
 runs:
   using: "composite"
   steps:
-    - name: Git Checkout
-      uses: actions/checkout@v4
-      with:
-        fetch-depth: 0
-    
     - name: Git Config
       run: |
         git config user.name "${GITHUB_ACTOR}"
