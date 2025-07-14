@@ -1,5 +1,11 @@
 # @july_cm/react-notion
 
+## 1.0.2
+
+### Patch Changes
+
+- 08a392f: 增加 isFullPage\isFullBlock 透传
+
 ## 1.0.1
 
 ### Patch Changes
