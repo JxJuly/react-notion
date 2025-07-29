@@ -7,8 +7,7 @@
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
   "scripts": {
-    "build": "rm -rf ./dist && tsc",
-    "release": "release-it -ci"
+    "build": "rm -rf ./dist && tsc"
   },
   "files": [
     "dist"

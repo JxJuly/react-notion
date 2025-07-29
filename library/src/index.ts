@@ -13,6 +13,7 @@ export { isFullPage, isFullBlock, isTextRichTextItemResponse } from '@notionhq/c
  * 类型
  */
 export type {
+  NotionComponents,
   Heading1BlockProps,
   IHeading1Block,
   Heading2BlockProps,
@@ -44,4 +45,5 @@ export type {
   ImageBlockProps,
   IImageBlock,
   RichTextItemResponse,
+  TextRichTextItemResponse,
 } from './types';

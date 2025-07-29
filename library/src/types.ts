@@ -18,6 +18,7 @@ import type {
   ToDoBlockObjectResponse,
   TableBlockObjectResponse,
   TableRowBlockObjectResponse,
+  TextRichTextItemResponse,
 } from '@notionhq/client/build/src/api-endpoints';
 
 /** heading 1 block */
@@ -138,4 +139,4 @@ export interface NotionComponents {
 /**
  * notion sdk 类型透传
  */
-export type { BlockObjectResponse, RichTextItemResponse };
+export type { BlockObjectResponse, RichTextItemResponse, TextRichTextItemResponse };
