@@ -1,5 +1,11 @@
 # @july_cm/react-notion
 
+## 1.0.4
+
+### Patch Changes
+
+- 4918a2f: add export type PageObjectResponse
+
 ## 1.0.3
 
 ### Patch Changes
