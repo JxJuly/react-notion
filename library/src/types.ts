@@ -19,6 +19,7 @@ import type {
   TableBlockObjectResponse,
   TableRowBlockObjectResponse,
   TextRichTextItemResponse,
+  PageObjectResponse,
 } from '@notionhq/client/build/src/api-endpoints';
 
 /** heading 1 block */
@@ -139,4 +140,4 @@ export interface NotionComponents {
 /**
  * notion sdk 类型透传
  */
-export type { BlockObjectResponse, RichTextItemResponse, TextRichTextItemResponse };
+export type { BlockObjectResponse, RichTextItemResponse, TextRichTextItemResponse, PageObjectResponse };

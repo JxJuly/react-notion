@@ -46,4 +46,5 @@ export type {
   IImageBlock,
   RichTextItemResponse,
   TextRichTextItemResponse,
+  PageObjectResponse,
 } from './types';
